@@ -1,0 +1,311 @@
+/* body {
+  font-family: Arial;
+  background: #f4f4f4;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 400px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  transition: 0.3s;
+}
+input:focus,
+select:focus {
+  border-color: #4e73df;
+  outline: none;
+  box-shadow: 0 0 8px rgba(78, 115, 223, 0.3);
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+.container {
+  background: #ffffff;
+  width: 420px;
+  max-width: 95%;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+  border-color: #4e73df;
+  outline: none;
+  box-shadow: 0 0 8px rgba(78, 115, 223, 0.3);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+button:nth-child(5) {
+  background: #4e73df;
+  color: white;
+}
+
+button:nth-child(6) {
+  background: #e74a3b;
+  color: white;
+}
+
+button:nth-child(7) {
+  background: #858796;
+  color: white;
+}
+
+hr {
+  margin: 15px 0;
+}
+
+#totalIncome {
+  color: #1cc88a;
+}
+
+#totalExpense {
+  color: #e74a3b;
+}
+
+#balance {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f8f9fc;
+}
+
+ul {
+  list-style: none;
+  margin-top: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+li {
+  background: #f8f9fc;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+li:hover {
+  background: #e2e6f5;
+}
+
+li button {
+  width: auto;
+  padding: 5px 8px;
+  font-size: 12px;
+  background: #e74a3b;
+  border-radius: 6px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+/* ========================= */
+/* 📱 TELEFON UCHUN DIZAYN */
+/* ========================= */
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+    align-items: flex-start;
+  }
+
+  .container {
+    width: 100%;
+    padding: 18px;
+    border-radius: 15px;
+    box-shadow: none;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  input,
+  select,
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  #balance {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 13px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  li button {
+    align-self: flex-end;
+  }
+}

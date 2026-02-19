@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mening Moliyam mualif "axn"</title>
+    <link rel="icon" type="image/png" href="./images.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- LOGIN -->
+      <div id="loginBox">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <button onclick="login()">Kirish</button>
+      </div>
+
+      <!-- APP -->
+      <div id="appBox" style="display: none">
+        <h2>Kundalik Moliyam</h2>
+
+        <input type="number" id="amount" placeholder="Summa" />
+        <input type="text" id="reason" placeholder="Sababi" />
+
+        <select id="type">
+          <option value="income">Daromad</option>
+          <option value="expense">Xarajat</option>
+        </select>
+
+        <button onclick="addTransaction()">Qo'shish</button>
+        <!--   <button onclick="clearAll()">Hammasini O‘chirish</button> -->
+        <button onclick="logout()">Chiqish</button>
+
+        <hr />
+
+        <h3 id="totalIncome">Jami Daromad: 0</h3>
+        <h3 id="totalExpense">Jami Xarajat: 0</h3>
+        <h2 id="balance">Balans: 0</h2>
+
+        <hr />
+
+        <ul id="history"></ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
